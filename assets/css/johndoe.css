@@ -12,7 +12,6 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
@@ -40,8 +39,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Source Sans Pro", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --font-family-monospace: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 
 *,
@@ -63,8 +62,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -190,7 +189,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
   font-size: 1em;
 }
 
@@ -371,7 +370,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Dosis", sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -6556,7 +6555,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6669,7 +6668,6 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10655,7 +10653,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace !important;
 }
 
 .text-justify {
@@ -10966,13 +10964,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* typography */
 p {
-  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .8;
-  color: #444;
+  font-size: 16px;
+  color: #000;
 }
 
 .title {
-  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1300 - 300)));
+  font-size: 18px;
 }
 
 .icon-md {
@@ -11084,7 +11081,7 @@ p {
 }
 
 .card .card-body {
-  font-size: 14px;
+  font-size: 16px;
   color: #6c757d;
 }
 
@@ -11406,7 +11403,7 @@ pre .code {
 
 .navbar .nav-link {
   font-weight: bold;
-  font-family: "Dosis","Open Sans",sans-serif;
+  font-family: sans-serif;
 }
 
 .navbar .nav-link.active {
@@ -11505,11 +11502,12 @@ pre .code {
 .header {
   position: relative;
   height: 60vh;
-  min-height: 400px;
+  min-height: 297px;
   background-image: url(../imgs/header.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #000;
 
   color: #fff;
 }
@@ -11550,17 +11548,28 @@ pre .code {
   margin-bottom: 40px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .header {
-    height: 500px;
-    min-height: 500px;
+    height: 140px;
+    min-height: 140px;
+    background-image: url(../imgs/avatar.jpg);
   }
   .header .social-icons {
+    position: absolute;
     margin: auto;
+  }
+  .header .social-item {
+    float: left;
+    width: 30px;
+    text-align: center;
   }
   .header .header-content {
     padding: 20px;
   }
+  .header .social-icons .social-link {
+    font-size: 16px;
+  }
+
   .header .header-content .header-mono {
     letter-spacing: 2px;
   }
