@@ -894,6 +894,11 @@ pre code {
   margin-left: 91.66667%;
 }
 
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -webkit-flex-basis: 0;
