@@ -10691,6 +10691,11 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+.text-margins {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
