@@ -567,10 +567,7 @@ pre code {
 }
 
 .header-lang {
-    
-    
     vertical-align: top;
-
 }
 
 @media (min-width: 576px) {
@@ -11415,11 +11412,11 @@ pre .code {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 240px;
+  max-width: 280px;
 }
 
 .social-icons .social-link {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .social-icons .social-link:hover {
@@ -11541,7 +11538,7 @@ pre .code {
   position: relative;
   height: 60vh;
   min-height: 297px;
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../../../assets/imgs/header.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

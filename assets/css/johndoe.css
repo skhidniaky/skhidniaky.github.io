@@ -567,10 +567,7 @@ pre code {
 }
 
 .header-lang {
-    
-    
     vertical-align: top;
-
 }
 
 @media (min-width: 576px) {
@@ -11415,11 +11412,11 @@ pre .code {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 240px;
+  max-width: 280px;
 }
 
 .social-icons .social-link {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .social-icons .social-link:hover {
