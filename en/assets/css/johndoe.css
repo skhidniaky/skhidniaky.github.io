@@ -11587,7 +11587,7 @@ pre .code {
   .header {
     height: 140px;
     min-height: 140px;
-    background-image: url(../imgs/avatar.jpg);
+    background-image: url(../../../assets/imgs/avatar.jpg);
   }
   .header .social-icons {
     position: absolute;
