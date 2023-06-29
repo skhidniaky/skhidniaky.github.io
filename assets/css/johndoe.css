@@ -11242,6 +11242,12 @@ p {
   color: #fff;
 }
 
+.portfolio-item2 {
+  display: inline-block;
+  max-width: 180px;
+  margin: 10px;
+}
+
 .portfolio .portfolio-container .portfolio-item {
   position: relative;
   padding-left: 0;
