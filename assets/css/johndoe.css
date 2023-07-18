@@ -490,6 +490,12 @@ mark,
   height: auto;
 }
 
+.img-gallery {
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11246,6 +11252,11 @@ p {
   display: inline-block;
   max-width: 180px;
   margin: 10px;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 5px;
 }
 
 .portfolio .portfolio-container .portfolio-item {
