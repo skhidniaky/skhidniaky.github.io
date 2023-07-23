@@ -5075,6 +5075,32 @@ input[type="button"].btn-block {
   border-radius: 0;
 }
 
+.cardBig {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+
+.cardSmallBorder {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+@media screen and (min-width: 768px) {
+    .cardBig {
+        flex-direction: row;
+    }
+
+    .cardSmall {
+        flex-basis: 100%;
+    }
+
+    .cardSmallBorder {
+        border-bottom: 0px;
+        border-right: 1px solid #dfdfdf;
+    }
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -5120,10 +5146,9 @@ input[type="button"].btn-block {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+/*    border-bottom: 1px solid rgba(0, 0, 0, 0.125);*/
 }
 
 .card-header:first-child {

@@ -10,50 +10,50 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
-	<link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
-	<script type="module">
-	import Lightbox from './photoswipe/dist/photoswipe-lightbox.esm.js';
-	const lightbox4 = new Lightbox({
-	  gallery: '#gallery4',
-	  children: 'a',
-	  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-	});
-	lightbox4.init();
-	
-	const lightbox21 = new Lightbox({
-	  gallery: '#gallery21',
-	  children: 'a',
-	  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-	});
-	lightbox21.init();
-	
-	const lightbox25 = new Lightbox({
-	  gallery: '#gallery25',
-	  children: 'a',
-	  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-	});
-	lightbox25.init();
-	
-	const lightbox79 = new Lightbox({
-	  gallery: '#gallery79',
-	  children: 'a',
-	  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-	});
-	lightbox79.init();
-	
-	const lightbox93 = new Lightbox({
-	  gallery: '#gallery93',
-	  children: 'a',
-	  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-	});
-	lightbox93.init();
-	
-	const lightbox127 = new Lightbox({
-	  gallery: '#gallery127',
-	  children: 'a',
-	  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-	});
-	lightbox127.init();
+    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+    <script type="module">
+    import Lightbox from './photoswipe/dist/photoswipe-lightbox.esm.js';
+    const lightbox4 = new Lightbox({
+        gallery: '#gallery4',
+        children: 'a',
+        pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+    });
+    lightbox4.init();
+
+    const lightbox21 = new Lightbox({
+        gallery: '#gallery21',
+        children: 'a',
+        pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+    });
+    lightbox21.init();
+
+    const lightbox25 = new Lightbox({
+        gallery: '#gallery25',
+        children: 'a',
+        pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+    });
+    lightbox25.init();
+
+    const lightbox79 = new Lightbox({
+        gallery: '#gallery79',
+        children: 'a',
+        pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+    });
+    lightbox79.init();
+
+    const lightbox93 = new Lightbox({
+        gallery: '#gallery93',
+        children: 'a',
+        pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+    });
+    lightbox93.init();
+
+    const lightbox127 = new Lightbox({
+        gallery: '#gallery127',
+        children: 'a',
+        pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+    });
+    lightbox127.init();
 
     const lightboxAdam = new Lightbox({
         gallery: '#gallery_adam',
@@ -103,7 +103,7 @@
         pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
     });
     lightboxMisc.init();
-	</script>
+    </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
@@ -215,15 +215,26 @@
                         <hr>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-money icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>PayPal</h6>
-                        <p class="subtitle">dyakonenko@gmail.com</p>
+                        <a href="https://www.paypal.com/donate/?hosted_button_id=G96B8M6GR43GN" target="_blank">
+                            <h6>PayPal</h6>
+                            <p class="subtitle">dyakonenko@gmail.com</p>
+                        </a>
                         <hr>
                     </div>
                 </div>
-				<button class="btn btn-outline-danger"><i class="icon-down-circled2"></i><a href="https://www.paypal.com/donate/?hosted_button_id=G96B8M6GR43GN" target="_blank">Допомогти</a></button>
+
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-wallet icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>MetaMask</h6>
+                        <p class="subtitle">0x17eeFeB5311a1364bebC5BfFD1bb9E7fBf051673</p>
+                        <hr>
+                    </div>
+                </div>
 
                 <p><br/><p><br/>
 
@@ -408,278 +419,278 @@
     </section-->
 
 	<hr/>
-	
-    <!--Gallery-->
+
+    <!--Gallery1-->
     <section class="section" id="gallery">
         <div class="container">
             <h2 class="mb-5">Фото (допомога бойовим підрозділам)</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header mt-2">
-                            <div id="gallery4">
-                                ⚔️&nbsp;&nbsp; 4-та бригада "Рубіж" (у складі Гвардії Наступу НГУ)
-                                <p>
-                                <br/>
 
-                                <a href="gallery/4/IMG_1120.jpg"
-                                    data-pswp-width="1280"
-                                    data-pswp-height="960"
-                                    target="_blank">
-                                    <img src="gallery/4/small/IMG_1120.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery/4/index.html#gallery">Більше фото</a>
-
+            <div class="cardBig">
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery4">
+                            ⚔️&nbsp;&nbsp; 4-та бригада "Рубіж" (у складі Гвардії Наступу НГУ)
                             <p>
                             <br/>
-                            <hr/>
-                            <br/>
 
-                            <div id="gallery79">
-                                ⚔️&nbsp;&nbsp; 79-та окрема десантно-штурмова бригада
-                                <p>
-                                <br/>
-
-                                <a href="gallery/79/IMG_1574.jpg"
-                                    data-pswp-width="1662"
-                                    data-pswp-height="1044"
-                                    target="_blank">
-                                    <img src="gallery/79/small/IMG_1574.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery79a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery_adam">
-                                ⚔️&nbsp;&nbsp; ADAM GROUP - диверсійно-розвідувальна група у складі батальйону ім. Дж. Дудаєва
-                                <p>
-                                <br/>
-
-                                <a href="gallery/adam/20221015_132539.jpg"
-                                    data-pswp-width="1613"
-                                    data-pswp-height="726"
-                                    target="_blank">
-                                    <img src="gallery/adam/small/20221015_132539.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery_adam_a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery_sso">
-                                ⚔️&nbsp;&nbsp; Окрема рота ССО
-                                <p>
-                                <br/>
-
-                                <a href="gallery/sso/1_top_2023-07-14_195650.jpg"
-                                    data-pswp-width="1598"
-                                    data-pswp-height="977"
-                                    target="_blank">
-                                    <img src="gallery/sso/small/1_top_2023-07-14_195650.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery_sso_a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery_misc">
-                                ⚔️&nbsp;&nbsp; Допомога іншим підрозділам
-                                <p>
-                                <br/>
-
-                                <a href="gallery/misc/1_top_20220511_090524.jpg"
-                                    data-pswp-width="1280"
-                                    data-pswp-height="960"
-                                    target="_blank">
-                                    <img src="gallery/misc/small/1_top_20220511_090524.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery_misc_a">Більше фото</a>
+                            <a href="gallery/4/IMG_1120.jpg"
+                                data-pswp-width="1280"
+                                data-pswp-height="960"
+                                target="_blank">
+                                <img src="gallery/4/small/IMG_1120.jpg" alt="" />
+                            </a>
                         </div>
-					</div>
-				</div>
-				
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header mt-2">
-                            <div id="gallery21">
-                                ⚔️&nbsp;&nbsp; 21-й окремий батальйон спеціального призначення Президентської бригади
-                                <p>
-                                <br/>
 
-                                <a href="gallery/21/IMG_0691.jpg"
-                                    data-pswp-width="2016"
-                                    data-pswp-height="1512"
-                                    target="_blank">
-                                    <img src="gallery/21/small/IMG_0691.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery21a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery93">
-                                ⚔️&nbsp;&nbsp; 93-тя окрема механізована бригада "Холодний Яр"
-                                <p>
-                                <br/>
-
-                                <a href="gallery/93/20220616_095902.jpg"
-                                    data-pswp-width="3024"
-                                    data-pswp-height="1362"
-                                    target="_blank">
-                                    <img src="gallery/93/small/20220616_095902.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery93a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery_5_aero">
-                                ⚔️&nbsp;&nbsp; Аеророзвідка 5-ї слобожанської бригади НГУ
-                                <p>
-                                <br/>
-
-                                <a href="gallery/5_aero/1_topIMG_0731.jpg"
-                                    data-pswp-width="1280"
-                                    data-pswp-height="960"
-                                    target="_blank">
-                                    <img src="gallery/5_aero/small/1_topIMG_0731.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery_5_aero_a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery_x">
-                                ⚔️&nbsp;&nbsp; Снайперський спецпідрозділ Х
-                                <p>
-                                <br/>
-
-                                <a href="gallery/x/1_top-s-2022-04-18-16-49-33-147-3.jpg"
-                                    data-pswp-width="1600"
-                                    data-pswp-height="1200"
-                                    target="_blank">
-                                    <img src="gallery/x/small/1_top-s-2022-04-18-16-49-33-147-3.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery_x_a">Більше фото</a>
-
-                        </div>
-					</div>
-				</div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header mt-2">
-                            <div id="gallery25">
-                                ⚔️&nbsp;&nbsp; 25-та окрема повітряно-десантна Січеславська бригада
-                                <p>
-                                <br/>
-
-                                <a href="gallery/25/IMG_1592.jpg"
-                                    data-pswp-width="1862"
-                                    data-pswp-height="1422"
-                                    target="_blank">
-                                    <img src="gallery/25/small/IMG_1592.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery25a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery127">
-                                ⚔️&nbsp;&nbsp; 127-ма бригада ТРО
-                                <p>
-                                <br/>
-
-                                <a href="gallery/127/IMG-20221126-WA0000.jpg"
-                                    data-pswp-width="1599"
-                                    data-pswp-height="1200"
-                                    target="_blank">
-                                    <img src="gallery/127/small/IMG-20221126-WA0000.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery127a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery_mil_intell">
-                                ⚔️&nbsp;&nbsp; Військова розвідка
-                                <p>
-                                <br/>
-
-                                <a href="gallery/mil_intell/IMG_0294.jpg"
-                                    data-pswp-width="2016"
-                                    data-pswp-height="1512"
-                                    target="_blank">
-                                    <img src="gallery/mil_intell/small/IMG_0294.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery_mil_intell_a">Більше фото</a>
-
-                            <p>
-                            <br/>
-                            <hr/>
-                            <br/>
-
-                            <div id="gallery_shid">
-                                ⚔️&nbsp;&nbsp; Спецпідрозділ МВС "СХІД"
-                                <p>
-                                <br/>
-
-                                <a href="gallery/shid/1_top_IMG_20220622_003206_642.jpg"
-                                    data-pswp-width="1280"
-                                    data-pswp-height="960"
-                                    target="_blank">
-                                    <img src="gallery/shid/small/1_top_IMG_20220622_003206_642.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <a href="gallery.html#gallery_shid_a">Більше фото</a>
-                        </div>
+                        <a href="gallery/4/index.html#gallery">Більше фото</a>
                     </div>
                 </div>
-			</div>
-		</div>
-	</section>
+
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery21">
+                            ⚔️&nbsp;&nbsp; 21-й окремий батальйон спеціального призначення Президентської бригади
+                            <p>
+                            <br/>
+
+                            <a href="gallery/21/IMG_0691.jpg"
+                                data-pswp-width="2016"
+                                data-pswp-height="1512"
+                                target="_blank">
+                                <img src="gallery/21/small/IMG_0691.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery21a">Більше фото</a>
+                    </div>
+                </div>
+
+                <div class="cardSmall">
+                    <div class="card-header mt-2">
+                        <div id="gallery25">
+                            ⚔️&nbsp;&nbsp; 25-та окрема повітряно-десантна Січеславська бригада
+                            <p>
+                            <br/>
+
+                            <a href="gallery/25/IMG_1592.jpg"
+                                data-pswp-width="1862"
+                                data-pswp-height="1422"
+                                target="_blank">
+                                <img src="gallery/25/small/IMG_1592.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery25a">Більше фото</a>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+
+            <div class="cardBig">
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery79">
+                            ⚔️&nbsp;&nbsp; 79-та окрема десантно-штурмова бригада
+                            <p>
+                            <br/>
+
+                            <a href="gallery/79/IMG_1574.jpg"
+                                data-pswp-width="1662"
+                                data-pswp-height="1044"
+                                target="_blank">
+                                <img src="gallery/79/small/IMG_1574.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery79a">Більше фото</a>
+                    </div>
+                </div>
+
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery93">
+                            ⚔️&nbsp;&nbsp; 93-тя окрема механізована бригада "Холодний Яр"
+                            <p>
+                            <br/>
+
+                            <a href="gallery/93/20220616_095902.jpg"
+                                data-pswp-width="3024"
+                                data-pswp-height="1362"
+                                target="_blank">
+                                <img src="gallery/93/small/20220616_095902.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery93a">Більше фото</a>
+                    </div>
+                </div>
+
+                <div class="cardSmall">
+                    <div class="card-header mt-2">
+                        <div id="gallery127">
+                            ⚔️&nbsp;&nbsp; 127-ма бригада ТРО
+                            <p>
+                            <br/>
+
+                            <a href="gallery/127/IMG-20221126-WA0000.jpg"
+                                data-pswp-width="1599"
+                                data-pswp-height="1200"
+                                target="_blank">
+                                <img src="gallery/127/small/IMG-20221126-WA0000.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery127a">Більше фото</a>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+
+            <div class="cardBig">
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery_adam">
+                            ⚔️&nbsp;&nbsp; ADAM GROUP - диверсійно-розвідувальна група у складі батальйону ім. Дж. Дудаєва
+                            <p>
+                            <br/>
+
+                            <a href="gallery/adam/20221015_132539.jpg"
+                                data-pswp-width="1613"
+                                data-pswp-height="726"
+                                target="_blank">
+                                <img src="gallery/adam/small/20221015_132539.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery_adam_a">Більше фото</a>
+                    </div>
+                </div>
+
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery_5_aero">
+                            ⚔️&nbsp;&nbsp; Аеророзвідка 5-ї слобожанської бригади НГУ
+                            <p>
+                            <br/>
+
+                            <a href="gallery/5_aero/1_topIMG_0731.jpg"
+                                data-pswp-width="1280"
+                                data-pswp-height="960"
+                                target="_blank">
+                                <img src="gallery/5_aero/small/1_topIMG_0731.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery_5_aero_a">Більше фото</a>
+                    </div>
+                </div>
+
+                <div class="cardSmall">
+                    <div class="card-header mt-2">
+                        <div id="gallery_mil_intell">
+                            ⚔️&nbsp;&nbsp; Військова розвідка
+                            <p>
+                            <br/>
+
+                            <a href="gallery/mil_intell/IMG_0294.jpg"
+                                data-pswp-width="2016"
+                                data-pswp-height="1512"
+                                target="_blank">
+                                <img src="gallery/mil_intell/small/IMG_0294.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery_mil_intell_a">Більше фото</a>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+
+            <div class="cardBig">
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery_sso">
+                            ⚔️&nbsp;&nbsp; Окрема рота ССО
+                            <p>
+                            <br/>
+
+                            <a href="gallery/sso/1_top_2023-07-14_195650.jpg"
+                                data-pswp-width="1598"
+                                data-pswp-height="977"
+                                target="_blank">
+                                <img src="gallery/sso/small/1_top_2023-07-14_195650.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery_sso_a">Більше фото</a>
+                    </div>
+                </div>
+
+                <div class="cardSmall cardSmallBorder">
+                    <div class="card-header mt-2">
+                        <div id="gallery_x">
+                            ⚔️&nbsp;&nbsp; Снайперський спецпідрозділ Х
+                            <p>
+                            <br/>
+
+                            <a href="gallery/x/1_top-s-2022-04-18-16-49-33-147-3.jpg"
+                                data-pswp-width="1600"
+                                data-pswp-height="1200"
+                                target="_blank">
+                                <img src="gallery/x/small/1_top-s-2022-04-18-16-49-33-147-3.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery_x_a">Більше фото</a>
+                    </div>
+                </div>
+
+                <div class="cardSmall">
+                    <div class="card-header mt-2">
+                        <div id="gallery_shid">
+                            ⚔️&nbsp;&nbsp; Спецпідрозділ МВС "СХІД"
+                            <p>
+                            <br/>
+
+                            <a href="gallery/shid/1_top_IMG_20220622_003206_642.jpg"
+                                data-pswp-width="1280"
+                                data-pswp-height="960"
+                                target="_blank">
+                                <img src="gallery/shid/small/1_top_IMG_20220622_003206_642.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery_shid_a">Більше фото</a>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+
+            <div class="cardBig">
+                <div class="cardSmall">
+                    <div class="card-header mt-2">
+                        <div id="gallery_misc">
+                            ⚔️&nbsp;&nbsp; Допомога іншим підрозділам
+                            <p>
+                            <br/>
+
+                            <a href="gallery/misc/1_top_20220511_090524.jpg"
+                                data-pswp-width="1280"
+                                data-pswp-height="960"
+                                target="_blank">
+                                <img src="gallery/misc/small/1_top_20220511_090524.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <a href="gallery.html#gallery_misc_a">Більше фото</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 	
 	<hr/>
 	
@@ -979,6 +990,18 @@
 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
+                            <img src="assets/imgs/1_rota_spec.jpg" class="img-fluid">
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">1-ша спец рота А4219</h6>
+                                    <p class="subtitle">2023 рік</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
                             <img src="assets/imgs/4.jpg" class="img-fluid">
                             <div class="content-holder">
                                 <div class="text-holder">
@@ -993,7 +1016,7 @@
                         <div class="portfolio-item">
                             <img src="assets/imgs/92.jpg" class="img-fluid">
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/92.jpg"></a>
+                                <a href="assets/imgs/92.jpg"></a>
                                 <div class="text-holder">
                                     <h6 class="title">92-га Окрема Механізована Бригада</h6>
                                     <p class="subtitle">2023 рік</p>
